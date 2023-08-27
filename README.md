@@ -22,3 +22,6 @@ A list of nepali first names along with their frequency in the voters list of 20
 86838 विष्णु 
 
 85185 सुनिता 
+
+## quick facts
+total number of entries in the list: 17996259
