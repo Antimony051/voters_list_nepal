@@ -2,6 +2,7 @@
 A list of nepali first names along with their frequency in the voters list of 2080 BS.
 
 ## top 10 most popular first names
+#### [frequency] [name]
 349932 राम 
 
 146819 लक्ष्मी 
