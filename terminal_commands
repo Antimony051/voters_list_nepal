@@ -1,3 +1,5 @@
+# The output from the python script is a hot mess of HTML and takes up almost 10 GB, we need to fix that
+# these commands help us clean the data
 perl -p -e 's/<td><input.*?<\/td>//g;' test_file               # remove the input field  add -i to edit in place
 sed  's/<\/td><td>/::/g' state6				# replace </td><td> with :: add -i to edit in place 
 sed  's/^.*<table.*<\/thead>//' state1      # remove table head
