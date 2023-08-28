@@ -1,0 +1,7 @@
+perl -p -e 's/<td><input.*?<\/td>//g;' test_file               # remove the input field  add -i to edit in place
+sed  's/<\/td><td>/::/g' state6				# replace </td><td> with :: add -i to edit in place 
+sed  's/^.*<table.*<\/thead>//' state1      # remove table head
+sed 's/<tbody><tr><td>//' state1            # remove <tbody><tr><td>
+sed 's/<\/tr><tr><td>/\n/g' state           # replace </tr><tr><td> with new line char
+sed  's/<\/tr><tr>/<\/tr>\n<tr>/g' test_table			# add a newline character after each row add -i to edit in place
+sed  's/<\/tr><\/tbody.*>//' state*         # remove the trailing dev
